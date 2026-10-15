@@ -2,6 +2,17 @@
 
 供同学编写机器学习实验报告使用。模板提供封面、自动目录、实验正文排版，以及图、表、代码和公式的编号与引用。编辑 `main.typ` 即可开始写报告；`use.typ` 是可编译的详细使用指南。
 
+## 模板拉取
+
+已安装 Git 的同学，可以在终端运行：
+
+```sh
+git clone https://github.com/043520lxy-cmd/typst-ml-lab-report-template.git
+cd typst-ml-lab-report-template
+```
+
+以后需要获取仓库更新时，进入该目录运行 `git pull`。不使用 Git 的同学，可在仓库页面点击 **Code → Download ZIP**，解压后直接编辑 `main.typ`。
+
 ## 环境与使用
 
 安装 [Typst](https://typst.app/) 后，在本目录运行：
